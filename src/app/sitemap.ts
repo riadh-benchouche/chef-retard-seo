@@ -17,10 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
             url: 'https://chefretard.fr/blog',
             lastModified: new Date(),
         },
-        {
-            url: `https://chefretard.fr/blog/${posts.map((post) => post.href)}`,
+        ...posts.map((post) => ({
+            url: `https://chefretard.fr/blog/${post.href}`,
             lastModified: new Date(),
-        },
+        })),
         {
             url: 'https://chefretard.fr/contact',
             lastModified: new Date(),
