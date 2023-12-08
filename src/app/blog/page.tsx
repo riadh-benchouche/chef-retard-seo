@@ -76,7 +76,7 @@ export default async function Blog() {
                                             </p>
                                             <Button
                                                 href={article.href}
-                                                aria-label={`Read more: ${article.title}`}
+                                                aria-label={`Lire l'article: ${article.title}`}
                                                 className="mt-8"
                                             >
                                                 Lire l'article
