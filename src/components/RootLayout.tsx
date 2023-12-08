@@ -65,13 +65,10 @@ function Header({
             <div className="flex items-center justify-between">
                 <Link
                     href="/"
-                    aria-label="Home"
-                    onMouseEnter={() => setLogoHovered(true)}
-                    onMouseLeave={() => setLogoHovered(false)}
+                    aria-label="Chef Retard Home"
+                    className="flex items-center gap-x-2 text-xl font-bold"
                 >
-                    <span className="flex items-center gap-x-2 text-xl font-bold">
-                        CHEF RETARD
-                    </span>
+                    CHEF RETARD
                 </Link>
                 <div className="flex items-center gap-x-8">
                     <Button href="/contact" invert={invert}>
