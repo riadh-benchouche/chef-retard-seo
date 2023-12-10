@@ -10,6 +10,10 @@ export const metadata: Metadata = {
         template: '%s - Chef Retard',
         default: 'Chef Retard - Excellence culinaire à son apogée',
     },
+    robots: {
+        index: true,
+        follow: true
+    }
 }
 
 export default function Layout({children}: { children: React.ReactNode }) {
