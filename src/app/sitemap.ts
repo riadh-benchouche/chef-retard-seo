@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
         },
         ...posts.map((post) => ({
-            url: `https://chefretard.fr/blog/${post.href}`,
+            url: `https://chefretard.fr/${post.href}`,
             lastModified: new Date(),
         })),
         {
