@@ -4,6 +4,8 @@ import {RootLayout} from '@/components/RootLayout'
 
 import '@/styles/tailwind.css'
 import {SpeedInsights} from "@vercel/speed-insights/next";
+import {Analytics} from '@vercel/analytics/react';
+import React from "react";
 
 export const metadata: Metadata = {
     title: {
@@ -22,6 +24,7 @@ export default function Layout({children}: { children: React.ReactNode }) {
         <body className="flex min-h-full flex-col">
         <RootLayout>{children}</RootLayout>
         <SpeedInsights/>
+        <Analytics/>
         </body>
         </html>
     )
