@@ -15,9 +15,10 @@ export const metadata: Metadata = {
     title: 'Explorez nos articles et plongez dans l\'univers de Chef Retard.',
     description: "Découvrez les conseils culinaires d'un chef passionné sur Chef Retard. Explorez des astuces, recettes et actualités pour élever votre expérience culinaire. Suivez notre blog pour rester connecté(e) avec les dernières tendances de la cuisine et les conseils d'un expert.",
     keywords: "chef retard, blog , artciles , cuisine, moderne,cuisine sans stress, recettes, astuces culinaires, conseils de chefs, cuisine en famille",
-    twitter: {
+    openGraph: {
         title: 'Explorez nos articles et plongez dans l\'univers de Chef Retard.',
         description: "Découvrez les conseils culinaires d'un chef passionné sur Chef Retard. Explorez des astuces, recettes et actualités pour élever votre expérience culinaire. Suivez notre blog pour rester connecté(e) avec les dernières tendances de la cuisine et les conseils d'un expert.",
+        images: 'https://images.unsplash.com/photo-1700627704834-fe9c4450b169?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
 }
 
