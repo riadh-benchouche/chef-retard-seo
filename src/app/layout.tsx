@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     robots: {
         index: true,
         follow: true
+    },
+    verification: {
+        google: "lEKRrtnRo-658p-aP_t9X5WGT5yi5qj9ct1p6QTn4Jw"
     }
 }
 
