@@ -10,15 +10,16 @@ import React from "react";
 export const metadata: Metadata = {
     title: {
         template: '%s - Chef Retard',
-        default: 'Chef Retard - Excellence culinaire à son apogée',
+        default: 'Chef Retard',
     },
+    applicationName: 'Chef Retard',
     robots: {
         index: true,
         follow: true
     },
     verification: {
         google: "lEKRrtnRo-658p-aP_t9X5WGT5yi5qj9ct1p6QTn4Jw"
-    }
+    },
 }
 
 export default function Layout({children}: { children: React.ReactNode }) {

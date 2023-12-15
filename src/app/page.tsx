@@ -162,11 +162,11 @@ function Articles() {
     )
 }
 export const metadata: Metadata = {
-    title: 'Découvrez l\'Art de la Cuisine Sans Retard avec Chef Retard',
     description:
         'Explorez notre univers culinaire où la cuisine devient une expérience relaxante. Trouvez des conseils pratiques, des recettes délicieuses, et des astuces pour cuisiner sans stress. Plongez dans Chef Retard et apprenez à savourer chaque moment en cuisine.',
     keywords: "chef retard, cuisine sans stress, recettes, astuces culinaires, conseils de chefs, cuisine en famille",
     openGraph: {
+        siteName : 'Chef Retard',
         title: 'Découvrez l\'Art de la Cuisine Sans Retard avec Chef Retard',
         description: 'Explorez notre univers culinaire où la cuisine devient une expérience relaxante. Trouvez des conseils pratiques, des recettes délicieuses, et des astuces pour cuisiner sans stress. Plongez dans Chef Retard et apprenez à savourer chaque moment en cuisine.',
         images: 'https://images.unsplash.com/photo-1700627704834-fe9c4450b169?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
