@@ -12,7 +12,7 @@ import {formatDate} from '@/lib/formatDate'
 import {loadArticles} from '@/lib/mdx'
 
 export const metadata: Metadata = {
-    title: 'Explorez nos articles et plongez dans l\'univers de Chef Retard.',
+    title: 'Blog',
     description: "Découvrez les conseils culinaires d'un chef passionné sur Chef Retard. Explorez des astuces, recettes et actualités pour élever votre expérience culinaire. Suivez notre blog pour rester connecté(e) avec les dernières tendances de la cuisine et les conseils d'un expert.",
     keywords: "chef retard, blog , artciles , cuisine, moderne,cuisine sans stress, recettes, astuces culinaires, conseils de chefs, cuisine en famille",
     openGraph: {
